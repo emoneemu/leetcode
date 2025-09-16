@@ -47,7 +47,7 @@ def twoSum(self, nums, target):
         """
 //Store numbers with their original indices
         nums_with_index = [(num, i) for i, num in enumerate(nums)]
-                nums_with_index.sort()  # sort by number
+                nums_with_index.sort()  //sort by number
 
         left, right = 0, len(nums) - 1
                 while left < right:
